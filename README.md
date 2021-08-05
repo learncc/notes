@@ -10,6 +10,7 @@
 
 - [x] 第1章 人人都应学会Markdown
 - [x] 第2章 人人都能学会Markdown
+- [x] 第3章 沉浸在写作之中-Typora
 
 ## design_pattern
 

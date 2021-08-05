@@ -68,11 +68,49 @@
 
 > 书签
 
-## 编辑器
+## Typora
 
-### Typora
+> 文件转换：Pandoc
 
-### VS Code
+### Typora扩展语法
+
+#### 下画线
+
+#### 数学公式
+
+##### 内联数学公式
+
+##### 数学公式块
+
+#### 上标和下标
+
+#### 高亮
+
+#### 注释
+
+#### 目录
+
+#### 脚注
+
+#### 图表操作
+
+序列图（sequence）
+
+> 基于js-sequence-diagrams开发，使用[js-sequence-diagrams语法](https://bramp.github.io/js-sequence-diagrams/)
+
+流程图（flow）
+
+> 基于flowchat.js开发，使用[flowchat.js语法](https://github.com/adrai/flowchart.js)
+
+Mermaid（mermaid）
+
+> 集成了Mermaid，支持序列图、流程图、甘特图等，使用[Mermaid语法](https://mermaid-js.github.io/mermaid/#/)
+
+#### HTML标签
+
+[HTML标签支持](https://support.typora.io/HTML/)
+
+## VS Code
 
 ## 写作场景及平台
 
