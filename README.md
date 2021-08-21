@@ -34,6 +34,7 @@
 #### 《Spring实战》第4版
 
 - [x] 第1章 Spring之旅
+- [x] 第2章 装配Bean
 
 ## un
 
