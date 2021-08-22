@@ -70,6 +70,21 @@ J-->K(自定义销毁方法)
 2. @Value
 3. SpEL
 
+## 面向切面编程AOP
+
+### 切面
+
+@Aspect
+
+### 切点
+
+@Pointcut
+
+### 通知
+
+1. @Before、@After、@AfterReturning、@AfterThrowing
+2. @Around(ProceedingJoinPoint)
+
 ## 注意事项
 
 > 路线图、第一部分 spring的核心
