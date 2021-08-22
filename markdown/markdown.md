@@ -114,17 +114,23 @@ Mermaid（mermaid）
 
 ## 写作场景及平台
 
-| 场景             | 工具和平台                                     |
-| ---------------- | ---------------------------------------------- |
-| 记笔记           | 印象笔记、有道笔记                             |
-| 写多人协作文档   | 腾讯文档、石墨文档                             |
-| 写博客           | 知乎、简书、CSDN、WordPress、Hexo              |
-| 写微信公众号文章 | Online-Markdown、Md2All                        |
-| 写邮件           | Markdown Here                                  |
-| 写便签           | 锤子便签                                       |
-| 写日记           | DayOne                                         |
-| 写交互式文档     | Jupyter Notebook、R Markdown                   |
-| 写网页           | md-page                                        |
-| 写项目文档       | MkDocs、VuePress、docsify                      |
-| 写幻灯片         | nodeppt、shower、remark、impress.js、reveal.js |
-| 写书             | GitBook、mdBook、Bookdown                      |
+| 场景             | 工具和平台                      |
+| ---------------- | ------------------------------- |
+| 笔记             | 印象笔记、有道云笔记            |
+| 在线多人协作文档 | 腾讯文档、石墨文档              |
+| 博客             | 知乎、简书、CSDN、Hexo[^1]      |
+| 微信公众号文章   | Online-Markdown[^2]、Md2All[^3] |
+| 邮件             | Markdown Here[^4]               |
+| 项目文档         | VuePress[^5]                    |
+| 幻灯片           | reveal.js                       |
+| 书               | GitBook                         |
+
+[^1]: [Hexo文档](https://hexo.io/zh-cn/)
+
+[^2]: https://www.flyzy2005.cn/tools/online-markdown/
+
+[^3]: http://md.aclickall.com/
+
+[^4]: [Markdown Here流行主题](https://github.com/caseywatts/markdown-here-css)
+
+[^5]: https://vuepress.vuejs.org/zh/guide/
