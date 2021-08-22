@@ -34,9 +34,41 @@ J-->K(自定义销毁方法)
 
 > @Configuration+@Bean
 
-### 导入配置
+#### 导入配置
 
 @Import
+
+### 高级装配
+
+#### 环境
+
+@Profile+属性（spring.profiles.active和spring.profiles.default）
+
+> 基于@Conditional实现
+
+#### 自动装配歧义性问题
+
+1. @Primary
+2. @Qualifier
+
+#### bean作用域
+
+@Scope
+
+1. 单例
+2. 原型
+3. 会话
+4. 请求
+
+> 使用会话或请求作用域时需要指明proxyMode以解决注入单例bean中所遇到的问题
+
+#### 运行时值注入
+
+@PropertySource声明属性源
+
+1. Environment
+2. @Value
+3. SpEL
 
 ## 注意事项
 
