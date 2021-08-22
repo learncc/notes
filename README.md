@@ -10,6 +10,7 @@
 - [x] 第2章 人人都能学会Markdown
 - [x] 第3章 沉浸在写作之中-Typora
 - [x] 第6章 Markdown工具一箩筐
+- [x] 第7章 我的地盘我做主
 
 ## design_pattern
 

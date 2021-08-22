@@ -125,7 +125,7 @@ Mermaid（mermaid）
 | 幻灯片           | reveal.js                       |
 | 书               | GitBook                         |
 
-[^1]: [Hexo文档](https://hexo.io/zh-cn/)
+[^1]: [Hexo文档](https://hexo.io/zh-cn/docs/)、[Next主题](https://github.com/theme-next/hexo-theme-next)、[Next主题配置](https://theme-next.iissnan.com/getting-started.html)
 
 [^2]: https://www.flyzy2005.cn/tools/online-markdown/
 
