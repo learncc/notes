@@ -43,6 +43,7 @@
 - [x] 第3章 高级装配
 - [x] 第4章 面向切面的Spring
 - [x] 第5章 构建Spring Web应用程序
+- [x] 第7章 Spring MVC的高级技术
 
 ## un
 

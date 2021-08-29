@@ -132,6 +132,18 @@ F-->G
 1. @Valid（控制器方法参数）
 2. 校验注解（模型属性）
 
+#### 文件上传
+
+@RequestPart+MultipartFile/Part
+
+#### 异常处理
+
+1. 异常类添加@ResponseStatus
+
+2. @ExceptionHandler注解方法
+
+> 注意：@ExceptionHandler能处理同个控制器中所有处理器方法抛出的异常，如果需要能够处理所有控制器中处理器方法抛出的异常，需要使用控制器通知（带有@ControllerAdvice注解的类）
+
 ## 注意事项
 
-> 路线图、第2部分
+> 路线图、第2部分、Servlet-Filter-Listener
