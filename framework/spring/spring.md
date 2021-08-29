@@ -12,16 +12,20 @@
 
 ```mermaid
 graph TB;
-A(实例化)-->B(填充属性)
-B-->C(BeanNameAware的setBeanName方法)
-C-->D(BeanFactoryAware的setBeanFactory方法)
-D-->E(ApplicationContextAware的setApplicationContext方法)
-E-->F(BeanPostProcessor预初始化方法)
-F-->G(InitializingBean的afterPropertiesSet方法)
-G-->H(自定义的初始化方法)
-H-->I(BeanPostProcessor初始化后方法)
-I-->|Bean可以使用|J(DisposableBean的destroy方法)
-J-->K(自定义销毁方法)
+A(实例化)
+B(填充属性)
+C(BeanNameAware的setBeanName方法)
+D(BeanFactoryAware的setBeanFactory方法)
+E(ApplicationContextAware的setApplicationContext方法)
+F(BeanPostProcessor预初始化方法)
+G(InitializingBean的afterPropertiesSet方法)
+H(自定义的初始化方法)
+I(BeanPostProcessor初始化后方法)
+J(DisposableBean的destroy方法)
+K(自定义销毁方法)
+
+A-->B-->C-->D-->E-->F-->G-->H-->I-->|Bean可以使用|J-->K
+
 ```
 
 ### 装配
