@@ -11,7 +11,8 @@
 #### 生命周期
 
 ```mermaid
-graph TB;
+graph TB
+
 A(实例化)
 B(填充属性)
 C(BeanNameAware的setBeanName方法)
@@ -89,6 +90,48 @@ A-->B-->C-->D-->E-->F-->G-->H-->I-->|Bean可以使用|J-->K
 1. @Before、@After、@AfterReturning、@AfterThrowing
 2. @Around(ProceedingJoinPoint)
 
+## MVC
+
+### 请求流程图
+
+```mermaid
+graph LR
+
+A>请求]
+B[DispatcherServlet]
+C[处理器映射]
+D[控制器]
+E[视图解析器]
+F[视图]
+G>响应]
+
+A-->|1|B-->|2|C
+B-->|3|D
+B-->|5|E
+B-->|6|F
+D-->|4模型及逻辑视图名|B
+F-->G
+
+```
+
+### 控制器
+
+1. 类级别：@Controller+@RequestMapping
+2. 方法级别：@RequestMapping
+
+#### 请求输入
+
+均在方法参数级别上
+
+1. 查询参数（@RequestParam）
+2. 表单参数
+3. 路径参数（@PathVariable）
+
+##### 表单参数校验
+
+1. @Valid（控制器方法参数）
+2. 校验注解（模型属性）
+
 ## 注意事项
 
-> 路线图、第一部分 spring的核心
+> 路线图、第2部分
