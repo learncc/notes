@@ -25,6 +25,18 @@ SELECT prod_name FROM products LIMIT 3,4
 
 > 多列排序的排列方向需分别指定（DESC降序，默认升序ASC）
 
+### WHERE子句
+
+#### 操作符
+
+- =
+- !=或\<\>
+- \<、\<=、\>、\>=
+- BETWEEN
+- IS NULL
+
+> NULL值非匹配问题
+
 ## 注释
 
 ```sql
