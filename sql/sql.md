@@ -4,9 +4,11 @@
 
 ## SELECT语句
 
-## DISTINCT关键字
+### FROM子句
 
-## 限制结果
+### DISTINCT关键字
+
+### 限制结果
 
 MySQL
 
@@ -18,6 +20,10 @@ SELECT prod_name FROM products LIMIT 3,4
 -- LIMIT 4 OFFSET 3 第一个数字是检索的行数（第一个被检索的行是第0行），第二个数字是指从哪儿开始
 
 ```
+
+### ORDER BY子句
+
+> 多列排序的排列方向需分别指定（DESC降序，默认升序ASC）
 
 ## 注释
 
