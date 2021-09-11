@@ -30,10 +30,6 @@
 
 #### 《Spring实战》第4版
 
-- [x] 第1章 Spring之旅
-- [x] 第2章 装配Bean
-- [x] 第3章 高级装配
-- [x] 第4章 面向切面的Spring
 - [x] 第5章 构建Spring Web应用程序
 - [x] 第7章 Spring MVC的高级技术
 - [x] 第10章 通过Spring和JDBC征服数据库
