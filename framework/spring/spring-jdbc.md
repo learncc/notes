@@ -1,4 +1,4 @@
-
+[TOC]
 
 # spring-jdbc
 
@@ -43,4 +43,5 @@ A-->B-->|getConnection方法|C-->|prepareStatement方法|D-->|execute方法|E
 D-->|executeQuery方法|F-->|查询结果处理|E
 
 ```
+
 > 执行图中各类方法会抛出SQLException
