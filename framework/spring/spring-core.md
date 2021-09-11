@@ -56,11 +56,11 @@ A-->B-->C-->D-->E-->F-->G-->H-->I-->|Bean可以使用|J-->K
 
 ### 装配
 
-1. 隐式装配
+- 隐式装配
 
 > 组件扫描（@ComponentScan+@Component）+自动装配（@Autowired）
 
-2. 显式装配
+- 显式装配
 
 > @Configuration+@Bean
 
