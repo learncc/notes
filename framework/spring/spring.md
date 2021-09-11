@@ -144,6 +144,37 @@ F-->G
 
 > 注意：@ExceptionHandler能处理同个控制器中所有处理器方法抛出的异常，如果需要能够处理所有控制器中处理器方法抛出的异常，需要使用控制器通知（带有@ControllerAdvice注解的类）
 
+## Spring-JDBC
+
+### 配置数据源
+
+- 连接池数据源（Hikari，Druid）
+- JNDI数据源
+
+### JDBC模板
+
+- JdbcTemplate（JdbcOperations）
+- NamedParameterJdbcTemplate（NamedParameterJdbcOperations）
+
+### JDBC
+
+```mermaid
+graph TB
+
+A[Start]
+B[DataSource]
+C[Connection]
+D[PreparedStatement]
+E[Connection/PreparedStatement/ResultSet资源关闭]
+F[ResultSet]
+
+A-->B-->|getConnection方法|C-->|prepareStatement方法|D-->|execute方法|E
+D-->|executeQuery方法|F-->|查询结果处理|E
+
+
+```
+> 执行图中各类方法会抛出SQLException
+
 ## 注意事项
 
 > 路线图、第2部分、Servlet-Filter-Listener

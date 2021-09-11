@@ -36,6 +36,7 @@
 - [x] 第4章 面向切面的Spring
 - [x] 第5章 构建Spring Web应用程序
 - [x] 第7章 Spring MVC的高级技术
+- [x] 第10章 通过Spring和JDBC征服数据库
 
 ## mooc
 
@@ -46,7 +47,3 @@
 - [x] 103-怎样学习本课程 
 
 > [计算机专业导论](https://www.icourse163.org/course/HIT-437006)
-
-## un
-
-- framework
