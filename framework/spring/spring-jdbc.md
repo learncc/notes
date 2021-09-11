@@ -7,8 +7,8 @@
 ```mermaid
 flowchart TB
   subgraph spring-jdbc
-    A[配置数据源]
-    B[JDBC]
+    A[JDBC]
+    B[配置数据源]
     C[JDBC模板]
   end
 ```
