@@ -100,6 +100,30 @@ public class Application {
 }
 ```
 
+## spring-redis
+
+### redis客户端
+
+- Jedis
+- Lettuce
+- Redisson
+
+### 连接工厂与连接
+
+RedisConnectionFactory与RedisConnection
+
+> Spring提供了JedisConnectionFactory和LuttuceConnectionFactory
+
+### 模板
+
+- RedisTemplate
+- StringRedisTemplate
+
+#### 序列化器RedisSerializer
+
+RedisTemplat用了JdkSerializationRedisSerializer
+StringRedisTemplate使用了StringRedisSerializer
+
 ## 注意事项
 
 > 路线图、第2部分、Servlet-Filter-Listener
