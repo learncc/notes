@@ -56,32 +56,6 @@ F-->G
 
 > 注意：@ExceptionHandler能处理同个控制器中所有处理器方法抛出的异常，如果需要能够处理所有控制器中处理器方法抛出的异常，需要使用控制器通知（带有@ControllerAdvice注解的类）
 
-
-
-## spring-redis
-
-### redis客户端
-
-- Jedis
-- Lettuce
-- Redisson
-
-### 连接工厂与连接
-
-RedisConnectionFactory与RedisConnection
-
-> Spring提供了JedisConnectionFactory和LuttuceConnectionFactory
-
-### 模板
-
-- RedisTemplate
-- StringRedisTemplate
-
-#### 序列化器RedisSerializer
-
-RedisTemplat用了JdkSerializationRedisSerializer
-StringRedisTemplate使用了StringRedisSerializer
-
 ## 注意事项
 
 > 路线图、第2部分、Servlet-Filter-Listener

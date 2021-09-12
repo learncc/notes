@@ -32,7 +32,6 @@
 
 - [x] 第5章 构建Spring Web应用程序
 - [x] 第7章 Spring MVC的高级技术
-- [x] 第12章 使用NoSQL数据库
 
 ## mooc
 
