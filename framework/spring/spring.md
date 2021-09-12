@@ -56,49 +56,7 @@ F-->G
 
 > 注意：@ExceptionHandler能处理同个控制器中所有处理器方法抛出的异常，如果需要能够处理所有控制器中处理器方法抛出的异常，需要使用控制器通知（带有@ControllerAdvice注解的类）
 
-## spring-boot
 
-### spring-boot-starter
-
-合并依赖
-
-### 自动配置
-
-### actuator
-
-### 构建应用
-
-pom文件
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<project>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>xx</version>
-    </parent>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
-</project>
-```
-
-启动类
-
-```java
-@SpringBootApplication
-public class Application {
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
-    }
-}
-```
 
 ## spring-redis
 
