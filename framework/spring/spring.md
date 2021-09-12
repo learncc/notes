@@ -56,6 +56,24 @@ F-->G
 
 > 注意：@ExceptionHandler能处理同个控制器中所有处理器方法抛出的异常，如果需要能够处理所有控制器中处理器方法抛出的异常，需要使用控制器通知（带有@ControllerAdvice注解的类）
 
+### HTTP信息转换器HttpMethodConverter
+
+- @RestController
+- @ResponseBody
+- @RequestBody
+
+#### 提供资源以外的其他内容
+
+##### 错误
+
+1. 控制器方法返回ResponseEntity
+2. 异常处理器+ResponseEntity
+
+> 如果仅更改HTTP状态可以在异常处理方法中使用@ReponseStatus
+
+### RestTemplate
+
+
 ## 注意事项
 
 > 路线图、第2部分、Servlet-Filter-Listener
