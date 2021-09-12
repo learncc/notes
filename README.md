@@ -32,6 +32,7 @@
 
 - [x] 第5章 构建Spring Web应用程序
 - [x] 第7章 Spring MVC的高级技术
+- [x] 第21章 借助SpringBoot简化Spring开发
 
 ## mooc
 
