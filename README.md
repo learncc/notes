@@ -26,14 +26,6 @@
 
 ## framework
 
-### spring
-
-#### 《Spring实战》第4版
-
-- [x] 第5章 构建Spring Web应用程序
-- [x] 第7章 Spring MVC的高级技术
-- [x] 第16章 使用SpringMVC创建REST API
-
 ## mooc
 
 ### 计算机专业导论
