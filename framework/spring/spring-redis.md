@@ -8,13 +8,16 @@
 flowchart TB
   subgraph spring-redis
     A[redis客户端]
-    B[连接工厂与连接]
-    C[模板]
+    B[Spring集成]
+    C[连接工厂与连接]
+    D[模板]
     
-    D[序列化]
+    E[序列化]
   end
 
-C-->D
+B-->C
+B-->D
+D-->E
 ```
 
 《Spring实战 第4版》
@@ -27,18 +30,20 @@ C-->D
 - Lettuce
 - Redisson
 
-## 连接工厂与连接
+## spring集成
+
+### 连接工厂与连接
 
 RedisConnectionFactory与RedisConnection
 
 > Spring提供了JedisConnectionFactory和LuttuceConnectionFactory
 
-## 模板
+### 模板
 
 - RedisTemplate
 - StringRedisTemplate
 
-### 序列化器RedisSerializer
+#### 序列化器RedisSerializer
 
 RedisTemplat用了JdkSerializationRedisSerializer
 StringRedisTemplate使用了StringRedisSerializer
