@@ -8,7 +8,7 @@
 
 ### DISTINCT关键字
 
-### 限制结果
+### 限制结果子句
 
 MySQL
 
@@ -36,6 +36,16 @@ SELECT prod_name FROM products LIMIT 3,4
 - IS NULL
 
 > NULL值非匹配问题
+
+#### AND子句
+
+#### OR子句
+
+#### IN操作符
+
+可以包含其他SELECT子句
+
+#### NOT操作符
 
 ## 注释
 
