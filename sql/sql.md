@@ -4,11 +4,13 @@
 
 ## SELECT语句
 
-### FROM子句
+```sql
+SELECT column FROM table_name
+```
 
 ### DISTINCT关键字
 
-### 限制结果子句
+### 限制结果
 
 MySQL
 
@@ -21,11 +23,11 @@ SELECT prod_name FROM products LIMIT 3,4
 
 ```
 
-### ORDER BY子句
+### ORDER BY排序
 
 > 多列排序的排列方向需分别指定（DESC降序，默认升序ASC）
 
-### WHERE子句
+### WHERE过滤
 
 #### 操作符
 
