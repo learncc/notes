@@ -49,6 +49,11 @@ SELECT prod_name FROM products LIMIT 3,4
 
 #### NOT操作符
 
+#### LIKE与通配符
+
+1. %（匹配0、1或多个字符）
+2. \_（匹配单个字符）
+
 ## 注释
 
 ```sql
