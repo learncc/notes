@@ -25,6 +25,11 @@
 - [x] ~~第5章 Groovy与Spring Boot CLI~~
 - [x] ~~第6章 在Spring Boot中使用Grails~~
 - [x] 第7章 深入Actuator
+- [x] 第8章 部署Spring Boot应用程序
+- [x] 附录A Spring Boot开发工具
+- [x] 附录B Spring Boot起步依赖
+- [x] 附录C 配置属性
+- [x] 附录D SpringBoot依赖
 
 ## mooc
 
