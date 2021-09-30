@@ -16,21 +16,6 @@
 
 ## framework
 
-## spring-boot
-
-- [x] 第1章 入门
-- [x] 第2章 开发第一个应用程序
-- [x] 第3章 自定义配置
-- [x] ~~第4章 测试~~
-- [x] ~~第5章 Groovy与Spring Boot CLI~~
-- [x] ~~第6章 在Spring Boot中使用Grails~~
-- [x] 第7章 深入Actuator
-- [x] 第8章 部署Spring Boot应用程序
-- [x] 附录A Spring Boot开发工具
-- [x] 附录B Spring Boot起步依赖
-- [x] 附录C 配置属性
-- [x] 附录D SpringBoot依赖
-
 ## mooc
 
 ### 计算机专业导论
