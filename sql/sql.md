@@ -10,6 +10,22 @@ SELECT column FROM table_name
 
 ### DISTINCT关键字
 
+### 计算字段
+
+#### 连接字段
+
+MySQL使用`CONCAT()`完成
+
+#### 算术运算
+
++-*/
+
+### 别名AS
+
+### 函数
+
+TRIM()、LTRIM()、RTRIM()
+
 ### 限制结果
 
 MySQL
