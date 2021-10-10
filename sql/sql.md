@@ -24,7 +24,25 @@ MySQL使用`CONCAT()`完成
 
 ### 函数
 
-TRIM()、LTRIM()、RTRIM()
+CONVERT数据类型转换
+CURDATE获取当前日期
+
+#### 文本处理函数
+
+UPPER/LOWER
+LEFT/RIGHT/SUBSTRING
+LENGTH
+TRIM/LTRIM/RTRIM
+
+#### 日期和时间处理函数
+
+YEAR/MONTH
+
+#### 数值处理函数
+
+#### 格式化函数
+
+#### 系统函数
 
 ### 限制结果
 
