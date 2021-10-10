@@ -44,6 +44,16 @@ YEAR/MONTH
 
 #### 系统函数
 
+#### 聚合函数
+
+1. AVG
+2. COUNT
+3. MAX
+4. MIN
+5. SUM
+
+> 以上均支持DISTINCT语法聚合不同值（仅AVG/COUNT/SUM有意义）
+
 ### 限制结果
 
 MySQL
